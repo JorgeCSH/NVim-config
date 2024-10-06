@@ -27,7 +27,13 @@ return require('packer').startup(function(use)
   })
   -- Treesitter for code interface, we must init.
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
-
+  use('nvim-treesitter/playground')
+  -- harpoon for switch between files
+  use('ThePrimeagen/harpoon')
+  -- To see the current state compared to edits you have done.
+  use('mbbill/undotree')
+  -- Fugitivie 
+  use('tpope/vim-fugitive')
 end)
 
 
