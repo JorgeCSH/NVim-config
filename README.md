@@ -6,7 +6,7 @@ If you are reading this and like my editor, feel free to make a fork and use it 
 
 Anything used from another source will have its respective reference, as well as any suggestions if he likes the idea.
 
-Also, I use the Nvim "0 to LSP; Neovim RC From Scratch" video from ("https://www.youtube.com/watch?v=w7i4amO_zaE")[ThePrimeagen] as a starter point.
+Also, I use the Nvim "0 to LSP; Neovim RC From Scratch" video from [ThePrimeagen](https://www.youtube.com/watch?v=w7i4amO_zaE) as a starter point.
 
 ## Final words
 Uh...for now I don't have any final words, so...yes, enjoy (or suffer) with my text editor.
