@@ -7,5 +7,4 @@ function ColorMyPencils(color)
 	vim.api.nvim_set_hl(1, "Normal", {bg = "none" })	-- -|--> Here for transparency (in my case I don't like it that much)
 	vim.api.nvim_set_hl(1, "NormalFLoat", {bg = "none" })	-- -|
 end
-
 ColorMyPencils()

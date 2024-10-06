@@ -34,6 +34,16 @@ return require('packer').startup(function(use)
   use('mbbill/undotree')
   -- Fugitivie 
   use('tpope/vim-fugitive')
+  -- LSP to autocomplete code
+  use({'VonHeikemen/lsp-zero.nvim', branch = 'v4.x'})
+  use({'neovim/nvim-lspconfig'})
+  use({'hrsh7th/nvim-cmp'})
+  use({'hrsh7th/cmp-nvim-lsp'})
+  -- File tree
+  use {
+	  "nvim-telescope/telescope-file-browser.nvim", 
+	  requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"}
+  }
 end)
 
 
