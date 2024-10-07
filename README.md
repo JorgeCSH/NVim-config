@@ -20,6 +20,10 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 * `[space]ps`: Search across projects.
 * `[space]fb`: Toggle file browser.
 
+## Some Screenshots
+![Greetings](https://github.com/JorgeCSH/NVim-config/blob/main/screenshots/nvim_greeter.png)
+![Repository](https://github.com/JorgeCSH/NVim-config/blob/main/screenshots/file_nvim.png)
+
 ## References
 * Package Manager Packer (caution, unmaintained): https://github.com/wbthomason/packer.nvim 
 * Telescope: https://github.com/nvim-telescope/telescope.nvim
@@ -30,9 +34,9 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 * Fugitive: https://github.com/tpope/vim-fugitive
 * lsp-zero: https://github.com/VonHeikemen/lsp-zero.nvim?tab=readme-ov-file
 * Telescope_file_browser: https://github.com/nvim-telescope/telescope-file-browser.nvim
-* Greeter: https://github.com/goolord/alpha-nvim?tab=readme-ov-file
+* Greeter: https://github.com/goolord/alpha-nvim?tab=readme-ov-file[^4]
 
 [^1]: For now, October 5th, I'm still a bit of a newbie for you to know.
 [^2]: For now that are the options that I have made, or well, what I think they do...
 [^3]: I don’t have much time right now, but I plan to make changes in the future.
-
+[^4]: Still working on that.
