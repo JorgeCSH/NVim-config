@@ -30,6 +30,7 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 * Fugitive: https://github.com/tpope/vim-fugitive
 * lsp-zero: https://github.com/VonHeikemen/lsp-zero.nvim?tab=readme-ov-file
 * Telescope_file_browser: https://github.com/nvim-telescope/telescope-file-browser.nvim
+* Greeter: https://github.com/goolord/alpha-nvim?tab=readme-ov-file
 
 [^1]: For now, October 5th, I'm still a bit of a newbie for you to know.
 [^2]: For now that are the options that I have made, or well, what I think they do...
