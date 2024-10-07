@@ -44,6 +44,17 @@ return require('packer').startup(function(use)
 	  "nvim-telescope/telescope-file-browser.nvim", 
 	  requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"}
   }
+  -- Intro logo
+  use {
+	  'goolord/alpha-nvim',
+    	  requires = {
+          'echasnovski/mini.icons',
+          'nvim-lua/plenary.nvim'
+    },
+    	config = function ()
+        require'alpha'.setup(require'alpha.themes.dashboard'.config)
+	end
+}
 end)
 
 
