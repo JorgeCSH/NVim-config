@@ -29,7 +29,7 @@ lsp_zero.extend_lspconfig({
 -- servers you have installed in your system
 require('lspconfig').gleam.setup({})
 require('lspconfig').rust_analyzer.setup({})
-
+require('lspconfig').pyright.setup({})
 ---
 -- Autocompletion setup
 ---
@@ -37,7 +37,7 @@ local cmp = require('cmp')
 
 cmp.setup({
   sources = {
-    {name = 'nvim_lsp'},
+    {name = 'nvim_lsp'}
   },
   snippet = {
     expand = function(args)
@@ -47,3 +47,6 @@ cmp.setup({
   },
   mapping = cmp.mapping.preset.insert({}),
 })
+
+
+

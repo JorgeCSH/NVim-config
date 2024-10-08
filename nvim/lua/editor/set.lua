@@ -10,7 +10,7 @@ vim.opt.undodir = os.getenv("HOME") .. "/.vim/undoir"
 vim.opt.undofile = true
 
 -- Highlights
-vim.opt.hlsearch = false
+vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 -- COLOOOOOORS
@@ -26,4 +26,12 @@ vim.opt.colorcolumn = "160"
 
 -- leaderkey
 vim.g.mapleader = " "
+
+-- For Icons
+vim.opt.guifont = "FiraCode Nerd Font:h12"
+
+-- Devicons
+vim.g.webdevicons_enable = true
+
+
 
