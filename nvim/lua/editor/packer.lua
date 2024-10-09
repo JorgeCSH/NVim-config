@@ -380,6 +380,11 @@ use {
   use{
 	  'nvim-tree/nvim-web-devicons'
   }
+  use({
+    "aserowy/tmux.nvim",
+    config = function() return require("tmux").setup() end
+})
+
 end)
 
 

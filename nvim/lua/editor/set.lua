@@ -1,7 +1,7 @@
 
 -- Activates line number
 vim.opt.nu = true
-vim.opt.relativenumber = false
+vim.opt.relativenumber = true
 
 -- Range of the tree
 vim.opt.swapfile = false
@@ -32,6 +32,4 @@ vim.opt.guifont = "FiraCode Nerd Font:h12"
 
 -- Devicons
 vim.g.webdevicons_enable = true
-
-
 
