@@ -21,7 +21,8 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 
 ## Future Updates[^3]
 * ~~Replace the file explorer (the current one was the first I found).~~
-* Config. Tmux.
+* Replace the greeter.
+* Setup. Tmux.
 
 ## Configurations[^2]:
 * `[space]ex`: Exit the current file (not Neovim).
