@@ -1,3 +1,7 @@
--- Here we re source when we open neovim
-require("editor.remap")	-- remap
+-- Here we source the files when we open neovim.
+-- #######################################################################################
+
+-- Remaps
+require("editor.remap")	
+-- Set
 require("editor.set")

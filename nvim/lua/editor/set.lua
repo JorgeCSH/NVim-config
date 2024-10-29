@@ -1,11 +1,14 @@
+-- Set: to set up everything we have installed
+-- #######################################################################################
+
 
 -- Activates line number
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
 -- Range of the tree
-vim.opt.swapfile = false
-vim.opt.backup = false
+vim.opt.swapfile = true
+vim.opt.backup = true
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undoir"
 vim.opt.undofile = true
 

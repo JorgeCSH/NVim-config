@@ -1,6 +1,12 @@
--- Here we use have our package manager, in this case we use packer. Warning, unmaintained, someday I will change it.
--- Also must be sourced when you change something.
--- In this case, to open the manager we type "PackerSync" to sync the packages we are adding.
+-- Package manager (Packer): please, do not touch anything, if you touch something, I will cry
+-- ############################################################################################
+--[[
+Info:
+- Here we use have our package manager, in this case we use packer. Warning, unmaintained, someday I will change it.
+- Also must be sourced when you change something.
+- In this case, to open the manager we type "PackerSync" to sync the packages we are adding.
+- Packages unless they specify, must be inserted here.
+]]--
 
 -- This file can be loaded by calling `lua require('plugins')` from your init.vim
 
@@ -182,8 +188,8 @@ use {
         -- see `:h neo-tree-custom-commands-global`
         commands = {},
         window = {
-          position = "left",
-          width = 40,
+          position = "right",
+          width = 30,
           mapping_options = {
             noremap = true,
             nowait = true,

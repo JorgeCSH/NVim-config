@@ -1,12 +1,14 @@
--- Config LSP
----
--- LSP configuration
----
+-- LSP ZERO: Autocompletetion (among others)
+-- #######################################################################################
+
+
+-- We call the package as a local variable.
 local lsp_zero = require('lsp-zero')
 
+
+-- Function for the remaps we can use to interact with the suggestions.
 local lsp_attach = function(client, bufnr)
   local opts = {buffer = bufnr}
-
   vim.keymap.set('n', 'K', '<cmd>lua vim.lsp.buf.hover()<cr>', opts)
   vim.keymap.set('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<cr>', opts)
   vim.keymap.set('n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<cr>', opts)
@@ -19,22 +21,25 @@ local lsp_attach = function(client, bufnr)
   vim.keymap.set('n', '<F4>', '<cmd>lua vim.lsp.buf.code_action()<cr>', opts)
 end
 
+-- Highlights
 lsp_zero.extend_lspconfig({
   sign_text = true,
   lsp_attach = lsp_attach,
   capabilities = require('cmp_nvim_lsp').default_capabilities(),
 })
 
--- These are just examples. Replace them with the language
--- servers you have installed in your system
-require('lspconfig').gleam.setup({})
-require('lspconfig').rust_analyzer.setup({})
-require('lspconfig').pyright.setup({})
----
--- Autocompletion setup
----
-local cmp = require('cmp')
 
+-- Here we call the servers with the code info.
+-- Gleam (default).
+require('lspconfig').gleam.setup({})
+-- Rust (default and...why not?)
+require('lspconfig').rust_analyzer.setup({})
+-- Python
+require('lspconfig').pyright.setup({})
+
+
+-- Autocompletion setup
+local cmp = require('cmp')
 cmp.setup({
   sources = {
     {name = 'nvim_lsp'}
