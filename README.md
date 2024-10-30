@@ -1,4 +1,4 @@
-# NeoVim Repository
+# NeoVim Repository (old)
 
 ## About
 This repository contains my configurations and options for my Vim-based code editor, serving as a backup to avoid losing them in case of mistakes.  
