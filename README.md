@@ -26,8 +26,8 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 * Customize the greeter.
 
 ## Some Screenshots
-![Greetings](https://github.com/JorgeCSH/NVim-config/blob/main/screenshots/nvim_greeter.png)
-![Repository](https://github.com/JorgeCSH/NVim-config/blob/main/screenshots/file_nvim.png)
+![Greetings](https://github.com/JorgeCSH/NVim-config/blob/nvim_lazy/screenshots/Greeter.png)
+![Using_it](https://github.com/JorgeCSH/NVim-config/blob/nvim_lazy/screenshots/Using_neovim.png)
 
 ## References
 * Package Manager Lazy.nvim: https://lazy.folke.io/  
