@@ -6,7 +6,7 @@
 -- global function, there are better ways but...I'll be honest, I know little less the basics of lua
 function ColorMyPencils(color)
 	-- We set color scheme
-	color = color or "catppuccin-macchiato"
+	color = color or "catppuccin-macchiato" 
 	vim.cmd.colorscheme(color)
 	
 	-- We set the transparency (0 or 1)
