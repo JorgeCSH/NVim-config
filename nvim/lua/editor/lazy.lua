@@ -332,10 +332,6 @@ local plugins = {
 	      		vim.cmd([[nnoremap \ :Neotree reveal<cr>]])
       		end,
 	},
-
-
-
-
 	{
 		'nvim-tree/nvim-web-devicons',
 	},
@@ -343,7 +339,14 @@ local plugins = {
 		"catppuccin/nvim",
 		name = "catppuccin",
 		priority = 1000
-	}
+	},
+	{
+		"startup-nvim/startup.nvim",
+  		dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim", "nvim-telescope/telescope-file-browser.nvim" },
+  		config = function()
+			require "startup".setup()
+		end,
+	},
 }
 
 require("lazy").setup(plugins, opts)
