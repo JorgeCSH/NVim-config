@@ -31,8 +31,8 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 * `[space]fb`: Toggle file browser.
 
 ## Some Screenshots
-![Greetings](https://github.com/JorgeCSH/NVim-config/blob/main/screenshots/nvim_greeter.png)
-![Repository](https://github.com/JorgeCSH/NVim-config/blob/main/screenshots/file_nvim.png)
+![Greetings](https://github.com/JorgeCSH/NVim-config/blob/nvim_packer/screenshots/nvim_greeter.png)
+![Repository](https://github.com/JorgeCSH/NVim-config/blob/nvim_packer/screenshots/file_nvim.png)
 
 ## References
 * Package Manager Packer (caution, unmaintained): https://github.com/wbthomason/packer.nvim 
