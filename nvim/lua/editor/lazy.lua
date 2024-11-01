@@ -50,7 +50,7 @@ local plugins = {
 		branch = "v3.x",
 		dependencies = { 
 		"nvim-lua/plenary.nvim",
-		"nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
+		"nvim-tree/nvim-web-devicons",
 		"MunifTanjim/nui.nvim",
 			{
 			's1n7ax/nvim-window-picker',
@@ -85,22 +85,20 @@ local plugins = {
 			enable_git_status = true,
 			enable_diagnostics = true,
 			open_files_do_not_replace_types = { "terminal", "trouble", "qf" }, 
-			sort_case_insensitive = false, -- d when sorting files and directories in the tree
-			sort_function = nil , --  a custom function for sorting files and directories in the tree 
+			sort_case_insensitive = false, 
+			sort_function = nil ,  
 			default_component_configs = {
 				container = {
 					enable_character_fade = true
 				},
 	  			indent = {
 	    				indent_size = 2,
-	    				padding = 1, -- extra padding on left hand side
-	    				-- indent guides
+	    				padding = 1, 
 	    				with_markers = true,
 	    				indent_marker = "│",
 		    			last_indent_marker = "└",
 		    			highlight = "NeoTreeIndentMarker",
-		    			-- expander config, needed for nesting files
-		    			with_expanders = nil, -- if nil and file nesting is enabled, will enable expanders
+		    			with_expanders = nil, 
 		    			expander_collapsed = "",
 		    			expander_expanded = "",
 		    			expander_highlight = "NeoTreeExpander",
@@ -120,8 +118,6 @@ local plugins = {
 						end
 					end
 				end,
-	    			-- The next two settings are only a fallback, if you  nvim-web-devicons and configure default icons there
-	    			-- then these will never be d.
 	    			default = "*",
 	    			highlight = "NeoTreeFileIcon",
 			},
@@ -175,7 +171,7 @@ local plugins = {
 		commands = {},
 		window = {
 			position = "right",
-	  		width = 40,
+	  		width = 30,
 	  		mapping_options = {
 				noremap = true,
 	    			nowait = true,
@@ -346,6 +342,10 @@ local plugins = {
   		config = function()
 			require "startup".setup()
 		end,
+	},
+	{
+		'timtro/glslView-nvim',
+		ft = 'glsl'
 	},
 }
 

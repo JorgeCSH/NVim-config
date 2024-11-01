@@ -1,11 +1,10 @@
 -- Treesitter: highlights and other stuff...
 -- #######################################################################################
 
-
 -- Here we init and edit treesitter
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the listed parsers MUST always be installed)
-  ensure_installed = {"ruby", "r", "python", "java", "javascript", "typescript", "rust", "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "css", "html", "glsl", "toml" },
+  ensure_installed = {"ruby", "r", "python", "java", "javascript", "typescript", "rust", "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline", "css", "html", "glsl", "toml", "cpp", "c_sharp", "asm", "bibtex", "scala", "yaml", "sql", "cuda", "csv", "c_sharp"},
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = false,

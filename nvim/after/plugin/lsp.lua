@@ -36,6 +36,11 @@ require('lspconfig').gleam.setup({})
 require('lspconfig').rust_analyzer.setup({})
 -- Python
 require('lspconfig').pyright.setup({})
+-- glsl
+require'lspconfig'.glsl_analyzer.setup{}
+-- lua (somehow it didn't come with nvim)
+require'lspconfig'.lua_ls.setup{}
+
 
 
 -- Autocompletion setup
