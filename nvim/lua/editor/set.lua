@@ -6,10 +6,15 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
--- Range of the tree
+-- Range of the tree/backup
+-- Edit: not only the tree, also the backup files (also in the same directori nvim)
+vim.opt.directory = os.getenv("HOME") .. "/.config/nvim/stupid_vim/swapdir//"
 vim.opt.swapfile = true
+
+vim.opt.backupdir = os.getenv("HOME") .. "/.config/nvim/stupid_vim/backupdir//"
 vim.opt.backup = true
-vim.opt.undodir = os.getenv("HOME") .. "/.vim/undoir"
+
+vim.opt.undodir = os.getenv("HOME") .. "/.config/nvim/stupid_vim/undodir//"
 vim.opt.undofile = true
 
 -- Highlights
