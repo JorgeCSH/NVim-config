@@ -7,10 +7,10 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 
 -- Range of the tree
-vim.opt.swapfile = true
-vim.opt.backup = true
+vim.opt.swapfile = false 
+vim.opt.backup = false 
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undoir"
-vim.opt.undofile = true
+vim.opt.undofile = false
 
 -- Highlights
 vim.opt.hlsearch = true
