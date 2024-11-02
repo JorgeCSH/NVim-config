@@ -1,21 +1,17 @@
 -- Set: to set up everything we have installed
 -- #######################################################################################
 
-
 -- Activates line number
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
 -- Range of the tree/backup
 -- Edit: not only the tree, also the backup files (also in the same directori nvim)
-vim.opt.directory = os.getenv("HOME") .. "/.config/nvim/stupid_vim/swapdir//"
-vim.opt.swapfile = true
+vim.opt.swapfile = false
 
-vim.opt.backupdir = os.getenv("HOME") .. "/.config/nvim/stupid_vim/backupdir//"
-vim.opt.backup = true
+vim.opt.backup = false
 
-vim.opt.undodir = os.getenv("HOME") .. "/.config/nvim/stupid_vim/undodir//"
-vim.opt.undofile = true
+vim.opt.undofile = false
 
 -- Highlights
 vim.opt.hlsearch = true
@@ -40,4 +36,3 @@ vim.opt.guifont = "FiraCode Nerd Font:h12"
 
 -- Devicons
 vim.g.webdevicons_enable = true
-
