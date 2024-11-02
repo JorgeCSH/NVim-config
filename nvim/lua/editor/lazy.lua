@@ -170,7 +170,7 @@ local plugins = {
 		-- see `:h neo-tree-custom-commands-global`
 		commands = {},
 		window = {
-			position = "left"
+			position = "left",
 	  		width = 30,
 	  		mapping_options = {
 				noremap = true,
@@ -342,10 +342,6 @@ local plugins = {
   		config = function()
 			require "startup".setup()
 		end,
-	},
-	{
-		'timtro/glslView-nvim',
-		ft = 'glsl'
 	},
 }
 
