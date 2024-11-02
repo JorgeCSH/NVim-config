@@ -170,7 +170,7 @@ local plugins = {
 		-- see `:h neo-tree-custom-commands-global`
 		commands = {},
 		window = {
-			position = "right",
+			position = "left"
 	  		width = 30,
 	  		mapping_options = {
 				noremap = true,
