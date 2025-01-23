@@ -9,5 +9,5 @@ vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeShow)
 vim.keymap.set("n", "<leader>o", vim.cmd.UndotreeHide)
 
 --set the window layout to the left
-vim.g.undotree_Window_Layout = 3
+vim.g.undotree_WindowLayout = 3
 vim.g.undotree_splitWidth = 25 
