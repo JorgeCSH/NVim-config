@@ -22,7 +22,7 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 ## Future Updates[^3]
 * ~~Replace the file explorer (the current one was the first I found).~~
 * ~~Replace the greeter.~~
-* Setup Tmux.
+* ~~Setup Tmux~~.
 * Customize the greeter.
 
 ## Some Screenshots
