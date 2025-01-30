@@ -30,8 +30,8 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 
 ## Some Screenshots
 
-![Greetings](https://github.com/JorgeCSH/NVim-config/blob/nvim_usable/screenshots/neovim_2.png)
-![Using_it](https://github.com/JorgeCSH/NVim-config/blob/nvim_usable/screenshots/neovim_1.png)
+![Greetings](https://github.com/JorgeCSH/NVim-config/blob/nvim_config/screenshots/neovim_2.png)
+![Using_it](https://github.com/JorgeCSH/NVim-config/blob/nvim_config/screenshots/neovim_1.png)
 
 ## References
 
