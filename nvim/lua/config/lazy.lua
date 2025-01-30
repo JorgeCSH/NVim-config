@@ -65,14 +65,15 @@ vim.g.undotree_SplitWidth = 30
 -- Harpoon setup
 -- None
 
+
 -- # Themes setup, here you should include your own config.
 -- 1. Onde dark
-require('onedark').load()
+--require('onedark').load()
 -- 2. Cyberdream
 --vim.cmd("colorscheme cyberdream")
--- 3. Jetbrains
---vim.cmd("colorscheme jb")
 -- 4. Dracula
 -- vim.cmd [[colorscheme dracula]]
 -- 5. Cattppucin
 -- vim.cmd("colorscheme catppuccin-macchiato")
+-- 6. nightfox
+require('nightfox').load()
