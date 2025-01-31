@@ -1,0 +1,7 @@
+-- Lualine, customize status line
+-- #######################################################################################
+
+return {
+  'nvim-lualine/lualine.nvim',
+  dependencies = { 'nvim-tree/nvim-web-devicons' }
+}

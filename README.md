@@ -41,6 +41,7 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 * Greeter[^3] : <https://github.com/goolord/alpha-nvim?tab=readme-ov-file>
 * tmux: <https://github.com/aserowy/tmux.nvim>
 * Copilot: <https://github.com/github/copilot.vim>
+* Statusline: <https://github.com/nvim-lualine/lualine.nvim?tab=readme-ov-file>
 
 [^1]: For now, January 29th, I'm still a bit of a newbie for you to know.
 [^2]: Still cooking.

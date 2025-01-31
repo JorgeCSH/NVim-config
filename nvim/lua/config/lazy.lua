@@ -64,8 +64,6 @@ vim.g.undotree_SplitWidth = 30
 
 -- Harpoon setup
 -- None
-
-
 -- # Themes setup, here you should include your own config.
 -- 1. Onde dark
 --require('onedark').load()
@@ -77,3 +75,44 @@ vim.g.undotree_SplitWidth = 30
 -- vim.cmd("colorscheme catppuccin-macchiato")
 -- 6. nightfox
 require('nightfox').load()
+
+-- # Status line, must be under the theme, if not, the colorscheme will overlap the bar.
+-- Custom colors
+local crayon_box = {
+  mode_blue = '#3089e3',
+  mode_green = '#38572a',
+  mode_purple = '#6c3c85',
+  mode_red = '#82383a',
+}
+
+-- Setup the colors of each mode, if not set, neovim will automatically set one.
+mode_color = {
+  n = crayon_box.mode_blue,   -- Normal mode
+  i = crayon_box.mode_green,  -- Insert mode
+  v = crayon_box.mode_purple, -- Visual mode
+  R = crayon_box.mode_red,    -- Replace mode
+}
+
+-- Start statusline  (some custom icons)
+require('lualine').setup {
+  options = {
+    theme = 'auto',
+    component_separators = { left = '|', right = '|' },
+    section_separators = { left = '', right = '' },
+    always_divide_middle = true,
+    always_show_tabline = true,
+  },
+  --[[order:
+  -- -----------------------------------------------------------------------------------||
+  -- | lualine_a lualine_b lualine_c                 |lualine_x| lualine_y lualine_z||
+  -- -----------------------------------------------------------------------------------||
+  -- ]]
+  sections = {
+    lualine_a = { 'mode' },
+    lualine_b = { 'branch', 'diff', 'diagnostics' },
+    lualine_c = { 'filename', 'filesize' },
+    lualine_x = { 'encoding', 'fileformat', 'filetype' },
+    lualine_y = { 'progress' },
+    lualine_z = { 'location' }
+  }
+}
