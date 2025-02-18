@@ -36,7 +36,7 @@ For now, I don't have any final thoughts, so... enjoy (or suffer) with my text e
 
 ## Some Screenshots
 
-![Greetings](https://github.com/JorgeCSH/NVim-config/blob/nvim_config/screenshots/picgture_1_neovim.png)
+![Greetings](https://github.com/JorgeCSH/NVim-config/blob/nvim_config/screenshots/picture_1_neovim.png)
 ![Using_it](https://github.com/JorgeCSH/NVim-config/blob/nvim_config/screenshots/picture_2_neovim.png)
 ![Latex_editor](https://github.com/JorgeCSH/NVim-config/blob/nvim_config/screenshots/picture_3_neovim.png)[^5]
 
