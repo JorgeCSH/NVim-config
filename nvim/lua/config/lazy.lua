@@ -76,6 +76,7 @@ vim.g.undotree_SplitWidth = 30
 -- 6. nightfox
 require('nightfox').load()
 
+
 -- # Status line, must be under the theme, if not, the colorscheme will overlap the bar.
 -- Custom colors
 local crayon_box = {
@@ -102,8 +103,8 @@ require('lualine').setup {
     always_divide_middle = true,
     always_show_tabline = true,
   },
-  --[[order:
   -- -----------------------------------------------------------------------------------||
+  --[[order:
   -- | lualine_a lualine_b lualine_c                 |lualine_x| lualine_y lualine_z||
   -- -----------------------------------------------------------------------------------||
   -- ]]
