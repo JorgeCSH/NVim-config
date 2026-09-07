@@ -7,7 +7,7 @@ If you're reading this and like my setup, feel free to fork and use it :D! If yo
 
 Anything sourced from elsewhere will have proper references, along with any credit for ideas I adopt.
 
-I used [ThePrimeagen's](https://www.youtube.com/@ThePrimeagen) ["0 to LSP; Neovim RC From Scratch"](https://www.youtube.com/watch?v=w7i4amO_zaE) video as a starting point for my setup (```Packer```).
+<!--I used [ThePrimeagen's](https://www.youtube.com/@ThePrimeagen) ["0 to LSP; Neovim RC From Scratch"](https://www.youtube.com/watch?v=w7i4amO_zaE) video as a starting point for my setup (```Packer```).-->
 
 ## Installation
 
